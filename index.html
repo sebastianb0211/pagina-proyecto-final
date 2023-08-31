@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style-button.css" />
+    <link rel="stylesheet" href="assets/css/style-card.css" />
+    <link rel="icon" href="assets/img/logo-sura (1).png" />
+    <title>Sura</title>
+  </head>
+  
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <a href="#" class="logo">Sura</a>
+          <img class="logo-sura" src="./assets/img/logo-sura (1).png" alt="" />
+          <ul class="nav-list">
+            <li class="nav-item dropdown">
+              <a
+                href="https://www.segurossura.com.co/paginas/ley-de-transparencia-eps.aspx"
+                target="_blank"
+                class="nav-link"
+                >Ley de transparencia</a
+              >
+            </li>
+          </ul>
+          <ul class="nav-list">
+            <li class="nav-item dropdown">
+              <a
+                href="https://www.epssura.com/faqs"
+                target="_blank"
+                class="nav-link"
+                >Preguntas frecuentes</a
+              >
+            </li>
+          </ul>
+          <ul class="nav-list">
+            <li class="nav-item dropdown">
+              <a
+                href="https://www.epssura.com/escribenos-defensor"
+                target="_blank"
+                class="nav-link"
+                >Escribenos tus PQRS</a
+              >
+            </li>
+          </ul>
+          <ul class="nav-list">
+            <li class="nav-item dropdown">
+              <a
+                href="https://www.epssura.com/canales-de-contacto"
+                target="_blank"
+                class="nav-link"
+                >Canales de contacto</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="container-card">
+      <div class="container-carta">
+        <div class="card">
+          <div class="imgBx">
+            <img src="assets/img/administrador.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <h2>ADMINISTRADOR</h2>
+            <p>
+              Encargado de registrar, visualizar y buscar especialistas médicos
+              en Medellín para EPS SURA. Retira con cédula y gestiona hasta 100
+              registros. Organiza la información de manera eficaz para asegurar
+              la disponibilidad y calidad de los servicios médicos en la ciudad.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="imgBx">
+            <img src="assets/img/especialista.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <h2>DOCTOR ESPECIALISTA</h2>
+            <p>
+              Registra horas trabajadas, calcula salario mensual y consulta
+              información. Accede a base de datos de compañeros. Contribuye al
+              cuidado médico en Medellín, manteniendo la privacidad de los
+              salarios.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgBx">
+            <img src="assets/img/paciente.jpeg" alt="" />
+          </div>
+          <div class="content">
+            <h2>PACIENTE</h2>
+            <p>
+              Consultar la Base de Datos de Especialistas: Los pacientes tienen
+              la capacidad de consultar la base de datos de especialistas
+              médicos registrados en el sistema. Sin embargo, no pueden ver los
+              salarios ni las fechas de ingreso de los especialistas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <main class="container-main">
+      <section class="container-roles">
+        <div class="boton-admin">
+          <button><span class="box"> Administrador </span></button>
+          <div class="form-absolute">
+            <form class="btn-admin" action=""> 
+              <label for="">Agregar especialista</label>
+              <input type="text" placeholder="Nombre completo:" />
+              <input type="text" placeholder="Cedula:" />
+              <input type="text" placeholder="Especialidad:" />
+              <input type="number" placeholder="Salario:" />
+              <input type="text" placeholder="Fecha de ingreso:" />
+              <input type="button" value="Agregar" class="agrega" />
+              <div><label for="">Acceder especialistas</label></div>
+              <input type="button" value="Acceder" class="agrega" />
+              <div><label for="">Buscar especialista</label></div>
+              <input type="search" placeholder="Cedula" />
+              <input type="button" value="Buscar" class="agrega" />
+
+              <div><label for="">Retirar especialista</label></div>
+              <input type="search" placeholder="Cedula" />
+              <input type="button" value="Retirar" class="retira" />
+            </form>
+          </div>
+        </div>
+
+        <div class="boton-admin">
+          <button><span class="box"> Médico Especialista </span></button>
+          <div class="form-absolute">
+            <form class="btn-especialista" action="">
+              <label for="">Consultar salario</label>
+              <input type="text" placeholder="Reportes de horas mensual" />
+              <label for="">Adcceder especialistas</label>
+              <input
+                type="button"
+                value="Acceder"
+                id="Adcceder-especialistas"
+                class="agrega"
+              />
+            </form>
+          </div>
+        </div>
+
+        <div class="boton-admin">
+          <button><span class="box"> Pacientes </span></button>
+          <div class="form-absolute">
+            <form class="btn-paciente" action="">
+              <label for="">Acceder especialistas</label>
+              <input type="button" value="Acceder" class="agrega" />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <img
+          src="./assets/img/Quantum_Tech__2_-logo.png"
+          alt="QuantumTechSolutions"
+        />
+        <h2>Creadores</h2>
+        <a href=""
+          ><img class="fotos-integrantes" src="assets/img/sebas.jpeg" alt=""
+        /></a>
+        <a href=""
+          ><img class="fotos-integrantes" src="assets/img/boris.jpeg" alt=""
+        /></a>
+        <a href=""
+          ><img class="fotos-integrantes" src="assets/img/andres.jpeg" alt=""
+        /></a>
+        <a href=""
+          ><img
+            class="fotos-integrantes"
+            src="assets/img/esneider (1).jpeg"
+            alt=""
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
